@@ -11,14 +11,14 @@
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
     <artifactId>sheetjs</artifactId>
-    <version>0.12.5-SNAPSHOT</version>
+    <version>0.18.7</version>
     <name>sheetjs</name>
     <description>WebJar for sheetjs</description>
     <url>http://webjars.org</url>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <upstream.version>0.12.4</upstream.version>
+        <upstream.version>0.18.7</upstream.version>
         <upstream.url>https://git.sheetjs.com/sheetjs/sheetjs.git/archive/v${upstream.version}.zip</upstream.url>
         <destDir>${project.build.outputDirectory}/META-INF/resources/webjars/${project.artifactId}/${upstream.version}</destDir>
         <requirejs>
