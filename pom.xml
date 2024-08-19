@@ -11,15 +11,15 @@
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
     <artifactId>sheetjs</artifactId>
-    <version>0.12.5-SNAPSHOT</version>
+    <version>0.18.7-SNAPSHOT</version>
     <name>sheetjs</name>
     <description>WebJar for sheetjs</description>
     <url>http://webjars.org</url>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <upstream.version>0.12.4</upstream.version>
-        <upstream.url>https://github.com/SheetJS/sheetjs/archive/refs/tags/v${upstream.version}.zip</upstream.url>
+        <upstream.version>0.18.7</upstream.version>
+        <upstream.url>https://git.sheetjs.com/sheetjs/sheetjs.git/archive/v${upstream.version}.zip</upstream.url>
         <destDir>${project.build.outputDirectory}/META-INF/resources/webjars/${project.artifactId}/${upstream.version}</destDir>
         <requirejs>
             {
@@ -33,7 +33,7 @@
     <licenses>
         <license>
             <name>Apache 2.0</name>
-            <url>https://github.com/SheetJS/sheetjs/blob/master/LICENSE</url>
+            <url>https://git.sheetjs.com/sheetjs/sheetjs/src/branch/master/LICENSE</url>
             <distribution>repo</distribution>
         </license>
     </licenses>
@@ -63,7 +63,7 @@
                                 <unzip src="${project.build.directory}/${project.artifactId}.zip" dest="${project.build.directory}/${upstream.version}" />
                                 <echo message="moving resources" />
                                 <move todir="${destDir}">
-                                    <fileset dir="${project.build.directory}/${upstream.version}/sheetjs-${upstream.version}/dist" />
+                                    <fileset dir="${project.build.directory}/${upstream.version}/sheetjs/dist" />
                                 </move>
                             </target>
                         </configuration>

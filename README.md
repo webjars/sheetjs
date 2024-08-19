@@ -5,4 +5,4 @@ Webjar for SheetJS
 
 More info: http://webjars.org
 
-Upstream: https://github.com/sheetjs/sheetjs
+Upstream: https://git.sheetjs.com/sheetjs/sheetjs
