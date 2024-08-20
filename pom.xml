@@ -11,7 +11,7 @@
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
     <artifactId>sheetjs</artifactId>
-    <version>0.18.7-SNAPSHOT</version>
+    <version>0.18.7</version>
     <name>sheetjs</name>
     <description>WebJar for sheetjs</description>
     <url>http://webjars.org</url>
@@ -42,7 +42,7 @@
         <url>http://github.com/webjars/sheetjs.js</url>
         <connection>scm:git:https://github.com/webjars/sheetjs.git</connection>
         <developerConnection>scm:git:https://github.com/webjars/sheetjs.git</developerConnection>
-        <tag>HEAD</tag>
+        <tag>sheetjs-0.18.7</tag>
     </scm>
 
     <build>
